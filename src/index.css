@@ -59,7 +59,7 @@ code {
 
 .btn:hover,
 .btn:active {
-  background-color: rgb(229, 223, 223);
+  background-color: #e5e490;
 }
 
 .another-color {
@@ -72,6 +72,11 @@ code {
 
 .section {
   text-align: left;
+  padding: 0 35px 10px 35px;
+}
+
+.pb-25 {
+  padding-bottom: 25px;
 }
 
 .section-title {
@@ -79,5 +84,30 @@ code {
 }
 
 .section-text {
-  font-size: 15px;
+  font-size: 14px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  background-color: #161619;
+  padding: 20px 0;
+}
+
+.youtube {
+  background-color: #918e9b;
+  border-radius: 2px;
+  width: 25px;
+  height: 25px;
+}
+
+.social-link {
+  width: 25px;
+  height: 25px;
+  border-radius: 2px;
+}
+
+.social-link:hover {
+  box-shadow: 0px 0px 12px 4px rgba(255, 255, 255, 1);
 }
