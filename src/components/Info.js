@@ -4,7 +4,7 @@ import linkedin from "../images/linkedin.svg";
 
 const Info = () => {
   return (
-    <section>
+    <section className="info">
       <div className="container">
         <div className="profile-photo">
           <img src={photo} alt="my profile" />
