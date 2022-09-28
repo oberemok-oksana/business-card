@@ -4,8 +4,11 @@ import linkedin from "../images/linkedin.svg";
 
 const Info = () => {
   const handleClick = () => {
-    window.location.href =
-      "https://www.linkedin.com/in/oksana-oberemok-792053215";
+    console.log(window.open);
+    window.open(
+      "https://www.linkedin.com/in/oksana-oberemok-792053215",
+      "_blank"
+    );
   };
 
   const handleEmail = () => {
@@ -25,7 +28,11 @@ const Info = () => {
             <img src={mail} alt="mail icon" /> Email
           </button>
 
-          <button className="btn another-color" onClick={handleClick}>
+          <button
+            className="btn another-color"
+            onClick={handleClick}
+            target="_blank"
+          >
             <img src={linkedin} alt="linkedin icon" /> Linkedin
           </button>
         </div>
