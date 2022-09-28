@@ -13,6 +13,7 @@ code {
 .container {
   width: 320px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .profile-photo {
@@ -63,4 +64,20 @@ code {
 
 .another-color {
   background-color: #29add6;
+}
+
+.info {
+  margin-bottom: 33px;
+}
+
+.section {
+  text-align: left;
+}
+
+.section-title {
+  font-size: 18px;
+}
+
+.section-text {
+  font-size: 15px;
 }
